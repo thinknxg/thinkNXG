@@ -5,77 +5,62 @@ frappe.ui.misc.about = function () {
 		return;
 	}
 
-	const dialog = new frappe.ui.Dialog({ title: __("About") });
-	$(dialog.wrapper).addClass("about-dialog");
+	const dialog = new frappe.ui.Dialog({ title: __("thinkNXG Framework") });
 
 	$(dialog.body).html(
-		`<div class="about-body">
-			<div class="about-frappe-section">
-			<img src="/assets/frappe/images/frappe-comp-logo.svg" alt="Frappe" class="about-frappe-wordmark">
-				<p class="about-tagline">${__("Open Source applications for the web.")}</p>
-				<div class="about-social-btns">
-					<a href="https://frappe.io/" target="_blank" class="about-icon-btn"
-						title="${__("Website")}">
-						${frappe.utils.icon("globe", "sm")}
-					</a>
-					<a href="https://github.com/frappe" target="_blank" class="about-icon-btn"
-						title="${__("Source Code")}">
-						${frappe.utils.icon("github", "sm")}
-					</a>
-					<a href="https://discuss.frappe.io" target="_blank" class="about-icon-btn"
-						title="${__("Forum")}">
-						${frappe.utils.icon("message-circle", "sm")}
-					</a>
-				</div>
-			</div>
+		`<div>
+				<p>${__("Open Source Applications for the Web")}</p>
 
-			<div class="about-info-rows">
-				<div class="about-info-row">
-					<div class="about-info-content">
-						<div class="about-info-title">${__("Frappe Framework Version")}</div>
-						<div class="about-info-sub" id="about-framework-version">
-							${__("Loading...")}
-						</div>
-					</div>
+				<p>
+					<i class='fa fa-globe fa-fw'></i>
+					${__("Website")}:
+					<a href='https://thinknxg.com/' target='_blank'>https://thinknxg.com/</a>
+				</p>
+
+				<p>
+					<i class='fa fa-github fa-fw'></i>
+					${__("Source Code")}:
+					<a href='https://github.com/thinknxg' target='_blank'>https://github.com/thinknxg</a>
+				</p>
+
+				<p>
+					<i class='fa fa-file-text fa-fw'></i>
+					${__("thinkNXG Blog")}:
+					<a href='https://thinknxg.com/blog' target='_blank'>https://thinknxg.com/blog</a>
+				</p>
+
+				<p>
+					<i class='fa fa-users fa-fw'></i>
+					${__("thinkNXG Forum")}:
+					<a href='https://discuss.thinknxg.com' target='_blank'>https://discuss.thinknxg.com</a>
+				</p>
+
+
+				<hr>
+
+				<div class="d-flex align-items-center justify-content-between">
+					<h4>${__("Installed Apps")}</h4>
+					<button class="btn action-btn hidden" id="copy-apps-info"
+					title="${__("Copy Apps Version")}"
+					style="margin-bottom: var(--margin-md);">
+						${frappe.utils.icon("clipboard")}
+					</button>
 				</div>
-				${
-					frappe.boot.is_fc_site
-						? `<div class="about-info-row">
-					<div class="about-info-content">
-						<a href="https://frappecloud.com/support" target="_blank" class="about-info-title about-info-title-link">
-							${__("Frappe Support")}
-							${frappe.utils.icon("external-link", "xs")}
+
+				<div id='about-app-versions'>${__("Loading versions...")}</div>
+				<p>
+					<b>
+						<a href="/attribution" target="_blank" class="text-muted">
+							${__("Dependencies & Licenses")}
 						</a>
-						<div class="about-info-sub">
-							${__("Visit Frappe Support Portal")}
-						</div>
-					</div>
-				</div>`
-						: ""
-				}
-			</div>
+					</b>
+				</p>
 
-			<div class="about-section-header flex items-center justify-between w-full">
-				<div class="about-section-label text-2xs text-ink-gray-6 text-uppercase">${__(
-					"Installed Apps"
-				)}</div>
-				<button class="es-button hidden" data-variant="ghost" data-icon-button="true"
-					id="copy-apps-info" title="${__("Copy Apps Version")}" aria-label="${__("Copy Apps Version")}">
-					${frappe.utils.icon("clipboard", "sm", "", "", "", true)}
-				</button>
-			</div>
+				<hr>
 
-			<div id="about-app-versions" class="about-app-list"></div>
-		</div>`
+				<p class='text-muted'>${__("&copy; Kreatao Technologies and Contributors.")} </p>
+			</div>`
 	);
-
-	$(dialog.footer)
-		.removeClass("hide")
-		.prepend(
-			`<div class="about-footer">
-			${__("&copy; Frappe Technologies Pvt. Ltd. and contributors")}
-		</div>`
-		);
 
 	frappe.ui.misc.about_dialog = dialog;
 

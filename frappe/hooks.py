@@ -511,9 +511,9 @@ standard_help_items = [
 		"is_standard": 1,
 	},
 	{
-		"item_label": "Frappe Support",
+		"item_label": "thinkNXG Support",
 		"item_type": "Route",
-		"route": "https://frappe.io/support",
+		"route": "https://thinknxg.com/support",
 		"is_standard": 1,
 	},
 ]
