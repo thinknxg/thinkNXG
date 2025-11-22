@@ -444,8 +444,8 @@ frappe.setup.SetupWizard = class SetupWizard extends frappe.ui.Slides {
 		frappe.set_route(this.page_name);
 
 		this.$working_state = this.get_message(
-			__("Setting things up"),
-			__("This can take a minute. Please keep this page open.")
+			__("Setting up your system"),
+			__("Starting thinkNXG ...")
 		).appendTo(this.parent);
 
 		this.attach_abort_button();
