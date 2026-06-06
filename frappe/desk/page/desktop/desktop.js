@@ -261,10 +261,10 @@ class DesktopPage {
 				order: 30,
 			},
 			{
-				icon: "life-buoy",
-				label: "Frappe Support",
-				onclick: function () {
-					window.open("https://support.frappe.io/help", "_blank");
+				icon: "support",
+				label: "thinkNXG Support",
+				onClick: function () {
+					window.open("https://support.thinknxg.net", "_blank");
 				},
 				order: 40,
 			},
