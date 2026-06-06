@@ -561,9 +561,9 @@ class DesktopPage {
 			},
 			{
 				icon: "support",
-				label: "Frappe Support",
+				label: "thinkNXG Support",
 				onClick: function () {
-					window.open("https://support.frappe.io/help", "_blank");
+					window.open("https://support.thinknxg.net", "_blank");
 				},
 			},
 			{
