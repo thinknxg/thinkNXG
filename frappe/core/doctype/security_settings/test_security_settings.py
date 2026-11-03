@@ -16,7 +16,7 @@ class TestSecuritySettings(IntegrationTestCase):
 			}
 		)
 		section = doc.public_policy_section
-		self.assertIn("Policy: https://frappe.io/security", section)
+		self.assertIn("Policy: https://thinknxg.com/support", section)
 
 	def test_public_policy_section_custom(self):
 		doc = frappe.get_doc(
@@ -49,7 +49,7 @@ class TestSecuritySettings(IntegrationTestCase):
 	def test_public_contacts_section_default(self):
 		doc = frappe.get_doc({"doctype": "Security Settings"})
 		section = doc.public_contacts_section
-		self.assertIn("https://security.frappe.io", section)
+		self.assertIn("https://thinknxg.com/support", section)
 
 	def test_public_contacts_section_email(self):
 		doc = frappe.get_doc(
