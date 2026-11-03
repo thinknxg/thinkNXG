@@ -18,7 +18,7 @@
   "engines": {
     "node": ">=24"
   },
-  "homepage": "https://frappeframework.com",
+  "homepage": "https://thinknxg.com",
   "dependencies": {
     "@atlaskit/pragmatic-drag-and-drop": "^2.0.1",
     "@editorjs/editorjs": "^2.28.2",

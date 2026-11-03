@@ -374,10 +374,10 @@ msgstr "<="
 
 #. Description of the 'Generate Keys' (Button) field in DocType 'User'
 #: frappe/core/doctype/user/user.json:626
-msgid "<a href=\"https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
+msgid "<a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
 "  Click here to learn about token-based authentication\n"
 "</a>"
-msgstr "<a href=\"https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
+msgstr "<a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
 "  Kliknite tukaj, če želite izvedeti več o preverjanju pristnosti na podlagi žetonov\n"
 "</a>"
 
@@ -445,8 +445,8 @@ msgid "<div class=\"well\">\n"
 "                    <code>.{fieldname}.</code> - fieldname on the document e.g.\n"
 "                    <code>branch</code>\n"
 "                </li>\n"
-"                <li><code>.FY.</code> - Fiscal Year (requires ERPNext to be installed)</li>\n"
-"                <li><code>.ABBR.</code> - Company Abbreviation (requires ERPNext to be installed)</li>\n"
+"                <li><code>.FY.</code> - Fiscal Year (requires thinkNXG ERP to be installed)</li>\n"
+"                <li><code>.ABBR.</code> - Company Abbreviation (requires thinkNXG ERP to be installed)</li>\n"
 "            </ul>\n"
 "        </li>\n"
 "    </ul>\n"
@@ -483,8 +483,8 @@ msgstr "<div class=\"well\">\n"
 "                    <code>.{fieldname}.</code> - ime polja v dokumentu, npr.\n"
 "                    <code>podružnica</code>\n"
 "                </li>\n"
-"                <li><code>.FY.</code> - Poslovno leto (zahteva namestitev programa ERPNext)</li>\n"
-"                <li><code>.ABBR.</code> - Kratica podjetja (zahteva namestitev programa ERPNext)</li>\n"
+"                <li><code>.FY.</code> - Poslovno leto (zahteva namestitev programa thinkNXG ERP)</li>\n"
+"                <li><code>.ABBR.</code> - Kratica podjetja (zahteva namestitev programa thinkNXG ERP)</li>\n"
 "            </ul>\n"
 "        </li>\n"
 "    </ul>\n"
@@ -891,8 +891,8 @@ msgstr "Ime tipa DocType se mora začeti s črko in je lahko sestavljeno le iz �
 
 #. Description of a DocType
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json:5
-msgid "A Frappe Framework instance can function as an OAuth Client, Resource, or Authorization server. This DocType contains settings related to all three."
-msgstr "Primerek ogrodja Frappe lahko deluje kot odjemalec OAuth, vir ali strežnik za avtorizacijo. Ta DocType vsebuje nastavitve, povezane z vsemi tremi."
+msgid "A thinkNXG Framework instance can function as an OAuth Client, Resource, or Authorization server. This DocType contains settings related to all three."
+msgstr "Primerek ogrodja thinkNXG lahko deluje kot odjemalec OAuth, vir ali strežnik za avtorizacijo. Ta DocType vsebuje nastavitve, povezane z vsemi tremi."
 
 #. Description of the 'Settings DocType' (Link) field in DocType 'DocType
 #. Settings Map Item'
@@ -6814,7 +6814,7 @@ msgid "Compact (narrow layouts)"
 msgstr ""
 
 #: frappe/public/js/frappe/ui/naming_series.js:116
-msgid "Company Abbreviation (requires ERPNext to be installed)"
+msgid "Company Abbreviation (requires thinkNXG ERP to be installed)"
 msgstr ""
 
 #. Name of a DocType
@@ -12473,8 +12473,8 @@ msgstr "Vnesite seznam Možnosti, vsako v novo vrstico."
 #. Description of the 'Static Parameters' (Table) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json:49
-msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr "Tukaj vnesite statične parametre URL (Npr. sender=ERPNext, username=ERPNext, password=1234 itd.)"
+msgid "Enter static url parameters here (Eg. sender=thinkNXG, username=thinkNXG, password=1234 etc.)"
+msgstr "Tukaj vnesite statične parametre URL (Npr. sender=thinkNXG, username=thinkNXG, password=1234 itd.)"
 
 #: frappe/public/js/form_builder/components/FieldProperties.vue:66
 msgid "Enter the fieldname of the currency field or a cached value (e.g. Company:company:default_currency)."
@@ -12588,8 +12588,8 @@ msgid "Error Summary"
 msgstr ""
 
 #: frappe/public/js/frappe/form/print_utils.js:187
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Napaka pri povezovanju z aplikacijo QZ Tray...<br><br> Za uporabo funkcije neposrednega tiskanja morate imeti nameščeno in zagnano aplikacijo QZ Tray.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Kliknite tukaj za prenos in namestitev QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Kliknite tukaj za več informacij o neposrednem tiskanju</a>."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "Napaka pri povezovanju z aplikacijo QZ Tray...<br><br> Za uporabo funkcije neposrednega tiskanja morate imeti nameščeno in zagnano aplikacijo QZ Tray.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Kliknite tukaj za prenos in namestitev QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Kliknite tukaj za več informacij o neposrednem tiskanju</a>."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 #, python-brace-format
@@ -13367,8 +13367,8 @@ msgid "Failed to render template: {0}"
 msgstr ""
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:150
-msgid "Failed to request login to Frappe Cloud"
-msgstr "Zahteve za prijavo v Frappe Cloud ni bilo mogoče poslati"
+msgid "Failed to request login to thinkNXG Cloud"
+msgstr "Zahteve za prijavo v thinkNXG Cloud ni bilo mogoče poslati"
 
 #: frappe/email/doctype/email_account/email_account.py:241
 msgid "Failed to retrieve the list of IMAP folders from the server. Please ensure the mailbox is accessible and the account has permission to list folders."
@@ -14230,7 +14230,7 @@ msgid "First set the name and save the record."
 msgstr "Najprej nastavite ime in shranite zapis."
 
 #: frappe/public/js/frappe/ui/naming_series.js:115
-msgid "Fiscal Year (requires ERPNext to be installed)"
+msgid "Fiscal Year (requires thinkNXG ERP to be installed)"
 msgstr ""
 
 #: frappe/printing/page/print/print.js:76
@@ -14574,8 +14574,8 @@ msgstr "Na primer: {} Odprto"
 
 #. Description of the 'Client script' (Code) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json:199
-msgid "For help see <a href=\"https://frappeframework.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Client Script API and Examples</a>"
-msgstr "Za pomoč glejte <a href=\"https://frappeframework.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\" rel=\"noopener noreferrer\">API in primere odjemalskih skriptov</a>"
+msgid "For help see <a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/guides/portal-development/web-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Client Script API and Examples</a>"
+msgstr "Za pomoč glejte <a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/guides/portal-development/web-forms\" target=\"_blank\" rel=\"noopener noreferrer\">API in primere odjemalskih skriptov</a>"
 
 #: frappe/core/doctype/system_settings/system_settings.js:130
 #, python-brace-format
@@ -14782,7 +14782,7 @@ msgstr "Ogrodje"
 #. Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json:57
 #: frappe/www/login.py:53 frappe/www/login.py:149
-msgid "Frappe"
+msgid "thinkNXG"
 msgstr ""
 
 #: frappe/public/js/frappe/ui/toolbar/about.js:39
@@ -14810,12 +14810,12 @@ msgid "Frappe Support"
 msgstr "Podpora Frappe"
 
 #: frappe/public/js/frappe/legacy_gravatar_cleanup.js:18
-msgid "Frappe no longer uses Gravatar because it can disclose hashed email addresses to a third-party service. To fully stop this behavior, existing Gravatar image URLs must be deleted."
+msgid "thinkNXG no longer uses Gravatar because it can disclose hashed email addresses to a third-party service. To fully stop this behavior, existing Gravatar image URLs must be deleted."
 msgstr ""
 
 #: frappe/website/doctype/web_page/web_page.js:97
-msgid "Frappe page builder using components"
-msgstr "Gradnik strani Frappe z uporabo komponent"
+msgid "thinkNXG page builder using components"
+msgstr "Gradnik strani thinkNXG z uporabo komponent"
 
 #: frappe/public/js/frappe/file_uploader/ImageCropper.vue:112
 msgctxt "Image Cropper"
@@ -15653,8 +15653,8 @@ msgstr ""
 
 #. Description of the 'Policy' (Data) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:41
-msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://frappe.io/security`"
-msgstr "Smernice in pravilniki o poročanju o ranljivostih. Privzeta vrednost je `https://frappe.io/security`"
+msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/support`"
+msgstr "Smernice in pravilniki o poročanju o ranljivostih. Privzeta vrednost je `https://thinknxg.com/support`"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json:106
@@ -24441,12 +24441,12 @@ msgid "Open Documents"
 msgstr "Odprti dokumenti"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:124
-msgid "Open Frappe CRM"
-msgstr "Odpri Frappe CRM"
+msgid "Open thinkNXG CRM"
+msgstr "Odpri thinkNXG CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:161
-msgid "Open Frappe Helpdesk"
-msgstr "Odpri Frappe Helpdesk"
+msgid "Open thinkNXG Helpdesk"
+msgstr "Odpri thinkNXG Helpdesk"
 
 #: frappe/public/js/frappe/ui/keyboard.js:230
 msgid "Open Global Search"
@@ -26430,8 +26430,8 @@ msgid "Please use following links to download file backup."
 msgstr "Za prenos varnostne kopije datotek uporabite naslednje povezave."
 
 #: frappe/utils/password.py:218
-msgid "Please visit https://frappecloud.com/docs/sites/migrate-an-existing-site#encryption-key for more information."
-msgstr "Za več informacij obiščite https://frappecloud.com/docs/sites/migrate-an-existing-site#encryption-key."
+msgid "Please visit https://docs.thinknxg.com/thinknxgcloud/sites/migrate-an-existing-site#encryption-key for more information."
+msgstr "Za več informacij obiščite https://docs.thinknxg.com/thinknxgcloud/sites/migrate-an-existing-site#encryption-key."
 
 #: frappe/desk/doctype/workspace/workspace.js:25
 #, python-brace-format
@@ -34201,7 +34201,7 @@ msgstr "Podvaluta. Npr. \"Cent\""
 #. Description of the 'Subdomain' (Small Text) field in DocType 'Website
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json:238
-msgid "Sub-domain provided by erpnext.com"
+msgid "Sub-domain provided by thinkNXG Cloud"
 msgstr "Poddomena, ki jo zagotavlja erpnext.com"
 
 #. Label of the subdomain (Small Text) field in DocType 'Website Settings'
@@ -34617,8 +34617,8 @@ msgid "Switch to CRM"
 msgstr "Preklopi na CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:135
-msgid "Switch to Frappe CRM"
-msgstr "Preklopi na Frappe CRM"
+msgid "Switch to thinkNXG CRM"
+msgstr "Preklopi na thinkNXG CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:160
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:172
@@ -38228,8 +38228,8 @@ msgid "Update Value"
 msgstr "Vrednost Posodobitve"
 
 #: frappe/utils/change_log.py:406
-msgid "Update from Frappe Cloud"
-msgstr "Posodobi iz Frappe Cloud"
+msgid "Update from thinkNXG Cloud"
+msgstr "Posodobi iz thinkNXG Cloud"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:414
 #, python-brace-format
@@ -39964,8 +39964,8 @@ msgstr "Obiski spletnega mesta"
 
 #. Description of the 'Contact' (Table) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:27
-msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://security.frappe.io`"
-msgstr "Spletno mesto, e-pošta ali telefon, kamor je mogoče prijaviti ranljivosti. Privzeta vrednost je `https://security.frappe.io`"
+msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/support`"
+msgstr "Spletno mesto, e-pošta ali telefon, kamor je mogoče prijaviti ranljivosti. Privzeta vrednost je `https://thinknxg.com/support`"
 
 #. Option for the 'SocketIO Transport Mode' (Select) field in DocType 'System
 #. Health Report'
@@ -41999,7 +41999,7 @@ msgid "frappectl"
 msgstr ""
 
 #: frappe/core/doctype/system_settings/system_settings.js:119
-msgid "frappectl is a command-line client for Frappe sites, built for people and AI agents."
+msgid "frappectl is a command-line client for thinkNXG sites, built for people and AI agents."
 msgstr ""
 
 #. Option for the 'Indicator Color' (Select) field in DocType 'Custom

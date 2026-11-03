@@ -13,7 +13,7 @@ def get_remote_script(remote_site):
 	if request.status_code / 100 != 2:
 		print(f"Request exited with Status Code: {request.status_code}\nPayload: {html2text(request.text)}")
 		click.secho(
-			"Some errors occurred while recovering the migration script. Please contact us @ Frappe Cloud if this issue persists",
+			"Some errors occurred while recovering the migration script. Please contact us @ thinkNXG Cloud if this issue persists",
 			fg="yellow",
 		)
 		return

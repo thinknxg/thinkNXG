@@ -123,7 +123,7 @@ def initiate_mailbox_connect(
 			frappe.throw(_("{0} wasn't connected with one-click sign-in").format(email_account))
 		if not is_v2_site():
 			frappe.throw(
-				_("{0} sign-in is only available on Frappe Cloud").format(
+				_("{0} sign-in is only available on thinkNXG Cloud").format(
 					ONE_CLICK_PROVIDERS[provider]["label"]
 				)
 			)

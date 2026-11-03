@@ -121,7 +121,7 @@ frappe.ui.Sidebar = class Sidebar {
 		const installed_app = (frappe.boot.apps_data.apps || []).find((app) => app.name === "crm");
 		if (installed_app && installed_app.route) {
 			const title = __("Switch to CRM");
-			const message = __("Open Frappe CRM");
+			const message = __("Open thinkNXG CRM");
 			this.promotional_banners.push({
 				title,
 				message,
@@ -132,12 +132,12 @@ frappe.ui.Sidebar = class Sidebar {
 			return;
 		}
 
-		const title = __("Switch to Frappe CRM");
+		const title = __("Switch to thinkNXG CRM");
 		const message = __(
 			"Sales without complexity, lock-in and per-user costs. Try it for free!"
 		);
 		const link =
-			"https://frappe.io/crm?utm_source=crm-sidebar&utm_medium=sidebar&utm_campaign=frappe-ad";
+			"https://thinknxgcloud.com/";
 
 		this.promotional_banners.push({ title, message, link, icon });
 	}
@@ -158,7 +158,7 @@ frappe.ui.Sidebar = class Sidebar {
 		);
 		if (installed_app && installed_app.route) {
 			const title = __("Switch to Helpdesk");
-			const message = __("Open Frappe Helpdesk");
+			const message = __("Open thinkNXG Helpdesk");
 			this.promotional_banners.push({
 				title,
 				message,
@@ -174,7 +174,7 @@ frappe.ui.Sidebar = class Sidebar {
 			"Support without complexity, lock-in and per-user costs. Try it for free!"
 		);
 		const link =
-			"https://frappe.io/helpdesk?utm_source=support-sidebar&utm_medium=sidebar&utm_campaign=frappe-ad";
+			"https://thinknxgcloud.com/";
 
 		this.promotional_banners.push({ title, message, link, icon });
 	}

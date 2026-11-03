@@ -65,7 +65,7 @@ import { ref, computed, onMounted } from "vue";
 import type { HelpArticle, HelpCenterProps } from "./types";
 
 const props = withDefaults(defineProps<HelpCenterProps>(), {
-	docsLink: "https://docs.frappe.io/crm",
+	docsLink: "https://docs.thinknxg.com/thinknxgcrm",
 });
 
 // `el` is frappe-ui's current TextInput template-ref member. It is being

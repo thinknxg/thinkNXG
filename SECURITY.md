@@ -1,7 +1,7 @@
 # Security Policy
 
-The Frappe team and community take security issues in the Frappe Framework seriously. To report a security issue, please go through the information mentioned [here](https://frappe.io/security).
+The thinkNXG team takes security issues in the thinkNXG Framework seriously. To report a security issue, please contact [thinkNXG Support](https://thinknxg.com/support).
 
-You can help us make Frappe and consequently all Frappe dependent apps like [ERPNext](https://erpnext.com) more secure by following the [Reporting guidelines](https://erpnext.com/security).
+thinkNXG Framework is built on the open-source Frappe Framework. Vulnerabilities that also affect the upstream project are coordinated with its maintainers.
 
 We appreciate your efforts to responsibly disclose your findings. We'll endeavor to respond quickly, and will keep you updated throughout the process.

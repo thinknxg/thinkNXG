@@ -34,12 +34,12 @@ Additional features over `oauthlib` that have implemented in the Framework:
 
 Documentation of various OAuth2 features:
 
-1. [How to setup OAuth 2?](https://docs.frappe.io/framework/user/en/guides/integration/how_to_set_up_oauth)
-2. [OAuth 2](https://docs.frappe.io/framework/user/en/guides/integration/rest_api/oauth-2)
-3. [Token Based Authentication](https://docs.frappe.io/framework/user/en/guides/integration/rest_api/token_based_authentication)
-4. [Using Frappe as OAuth Service](https://docs.frappe.io/framework/user/en/using_frappe_as_oauth_service)
-5. [Social Login Key](https://docs.frappe.io/framework/user/en/guides/integration/social_login_key)
-6. [Connected App](https://docs.frappe.io/framework/user/en/guides/app-development/connected-app)
+1. [How to setup OAuth 2?](https://docs.thinknxg.com/thinknxgframework/user/en/guides/integration/how_to_set_up_oauth)
+2. [OAuth 2](https://docs.thinknxg.com/thinknxgframework/user/en/guides/integration/rest_api/oauth-2)
+3. [Token Based Authentication](https://docs.thinknxg.com/thinknxgframework/user/en/guides/integration/rest_api/token_based_authentication)
+4. [Using Frappe as OAuth Service](https://docs.thinknxg.com/thinknxgframework/user/en/using_frappe_as_oauth_service)
+5. [Social Login Key](https://docs.thinknxg.com/thinknxgframework/user/en/guides/integration/social_login_key)
+6. [Connected App](https://docs.thinknxg.com/thinknxgframework/user/en/guides/app-development/connected-app)
 
 > [!WARNING]
 >

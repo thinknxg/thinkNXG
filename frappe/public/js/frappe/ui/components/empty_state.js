@@ -89,7 +89,7 @@ function build_action(action) {
  *     description: __("Create your first invoice to get started."),
  *     actions: [
  *         { label: __("New Invoice"), variant: "solid", icon: "plus", onclick: () => this.new_doc() },
- *         { label: __("Learn more"), href: "https://docs.erpnext.com/invoicing", icon: "external-link" },
+ *         { label: __("Learn more"), href: "https://docs.thinknxg.com/thinknxgerp/invoicing", icon: "external-link" },
  *     ],
  * }));
  */

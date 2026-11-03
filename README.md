@@ -1,6 +1,6 @@
 
 <div align="center">
-    <a href="https://thinknxg">
+    <a href="https://thinknxg.com">
         <img src="https://thinknxg.com/wp-content/uploads/2023/12/favicon.svg1-01.png" height="128">
     </a>
     <h2>a web framework with batteries included.</h2>

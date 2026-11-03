@@ -3,7 +3,7 @@
  "allow_copy": 1,
  "creation": "2013-01-10 16:34:24",
  "doctype": "DocType",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/sms-setting",
+ "documentation": "https://docs.thinknxg.com/thinknxgerp/user/manual/en/sms-setting",
  "engine": "InnoDB",
  "field_order": [
   "sms_gateway_url",
@@ -46,7 +46,7 @@
    "width": "50%"
   },
   {
-   "description": "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)",
+   "description": "Enter static url parameters here (Eg. sender=thinkNXG, username=thinkNXG, password=1234 etc.)",
    "fieldname": "parameters",
    "fieldtype": "Table",
    "label": "Static Parameters",

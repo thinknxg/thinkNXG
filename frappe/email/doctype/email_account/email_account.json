@@ -5,7 +5,7 @@
  "creation": "2024-06-11 16:39:01.323289",
  "doctype": "DocType",
  "document_type": "Setup",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/email-account",
+ "documentation": "https://docs.thinknxg.com/thinknxgerp/user/manual/en/email-account",
  "engine": "InnoDB",
  "field_order": [
   "account_section",
@@ -507,7 +507,7 @@
   },
   {
    "default": "0",
-   "documentation_url": "https://docs.frappe.io/erpnext/user/manual/en/linking-emails-to-document",
+   "documentation_url": "https://docs.thinknxg.com/thinknxgerp/user/manual/en/linking-emails-to-document",
    "fieldname": "enable_automatic_linking",
    "fieldtype": "Check",
    "hide_days": 1,

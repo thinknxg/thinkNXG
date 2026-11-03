@@ -215,7 +215,7 @@ def decrypt(txt, encryption_key=None, key: str | None = None):
 			)
 			+ "<br><br>"
 			+ _(
-				"Please visit https://frappecloud.com/docs/sites/migrate-an-existing-site#encryption-key for more information."
+				"Please visit https://docs.thinknxg.com/thinknxgcloud/sites/migrate-an-existing-site#encryption-key for more information."
 			),
 		)
 

@@ -32,8 +32,8 @@ import type { SignupBannerProps } from "./types";
 
 const props = withDefaults(defineProps<SignupBannerProps>(), {
 	isSidebarCollapsed: false,
-	appName: "Frappe CRM",
-	redirectURL: "https://frappecloud.com/crm/signup",
+	appName: "thinkNXG CRM",
+	redirectURL: "https://thinknxgcloud.com/",
 	afterSignup: () => {},
 });
 

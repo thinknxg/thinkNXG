@@ -526,6 +526,12 @@ standard_help_items = [
 		"is_standard": 1,
 	},
 	{
+		"item_label": "Documentation",
+		"item_type": "Route",
+		"route": "https://docs.thinknxg.com/thinknxgframework",
+		"is_standard": 1,
+	},
+	{
 		"item_label": "thinkNXG Support",
 		"item_type": "Route",
 		"route": "https://thinknxg.com/support",

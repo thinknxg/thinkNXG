@@ -374,10 +374,10 @@ msgstr "<="
 
 #. Description of the 'Generate Keys' (Button) field in DocType 'User'
 #: frappe/core/doctype/user/user.json:626
-msgid "<a href=\"https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
+msgid "<a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
 "  Click here to learn about token-based authentication\n"
 "</a>"
-msgstr "<a href=\"https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
+msgstr "<a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
 "  按此了解以權杖為基礎的驗證\n"
 "</a>"
 
@@ -445,8 +445,8 @@ msgid "<div class=\"well\">\n"
 "                    <code>.{fieldname}.</code> - fieldname on the document e.g.\n"
 "                    <code>branch</code>\n"
 "                </li>\n"
-"                <li><code>.FY.</code> - Fiscal Year (requires ERPNext to be installed)</li>\n"
-"                <li><code>.ABBR.</code> - Company Abbreviation (requires ERPNext to be installed)</li>\n"
+"                <li><code>.FY.</code> - Fiscal Year (requires thinkNXG ERP to be installed)</li>\n"
+"                <li><code>.ABBR.</code> - Company Abbreviation (requires thinkNXG ERP to be installed)</li>\n"
 "            </ul>\n"
 "        </li>\n"
 "    </ul>\n"
@@ -482,8 +482,8 @@ msgstr "<div class=\"well\">\n"
 "                    <code>.{fieldname}.</code> - 文件上的欄位名稱，例如\n"
 "                    <code>branch</code>\n"
 "                </li>\n"
-"                <li><code>.FY.</code> - 會計年度（需安裝 ERPNext）</li>\n"
-"                <li><code>.ABBR.</code> - 公司縮寫（需安裝 ERPNext）</li>\n"
+"                <li><code>.FY.</code> - 會計年度（需安裝 thinkNXG ERP）</li>\n"
+"                <li><code>.ABBR.</code> - 公司縮寫（需安裝 thinkNXG ERP）</li>\n"
 "            </ul>\n"
 "        </li>\n"
 "    </ul>\n"
@@ -893,8 +893,8 @@ msgstr "DocType 名稱必須以字母開頭，且只能由字母、數字、空�
 
 #. Description of a DocType
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json:5
-msgid "A Frappe Framework instance can function as an OAuth Client, Resource, or Authorization server. This DocType contains settings related to all three."
-msgstr "Frappe Framework 執行個體可作為 OAuth 用戶端、資源伺服器或授權伺服器。此 DocType 包含這三者的相關設定。"
+msgid "A thinkNXG Framework instance can function as an OAuth Client, Resource, or Authorization server. This DocType contains settings related to all three."
+msgstr "thinkNXG Framework 執行個體可作為 OAuth 用戶端、資源伺服器或授權伺服器。此 DocType 包含這三者的相關設定。"
 
 #. Description of the 'Settings DocType' (Link) field in DocType 'DocType
 #. Settings Map Item'
@@ -6816,8 +6816,8 @@ msgid "Compact (narrow layouts)"
 msgstr ""
 
 #: frappe/public/js/frappe/ui/naming_series.js:116
-msgid "Company Abbreviation (requires ERPNext to be installed)"
-msgstr "公司縮寫（需安裝 ERPNext）"
+msgid "Company Abbreviation (requires thinkNXG ERP to be installed)"
+msgstr "公司縮寫（需安裝 thinkNXG ERP）"
 
 #. Name of a DocType
 #: frappe/website/doctype/company_history/company_history.json:33
@@ -12474,8 +12474,8 @@ msgstr "輸入選項清單，每個選項獨立一行。"
 #. Description of the 'Static Parameters' (Table) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json:49
-msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr "在此輸入固定的網址參數（例如 sender=ERPNext、username=ERPNext、password=1234 等）"
+msgid "Enter static url parameters here (Eg. sender=thinkNXG, username=thinkNXG, password=1234 etc.)"
+msgstr "在此輸入固定的網址參數（例如 sender=thinkNXG、username=thinkNXG、password=1234 等）"
 
 #: frappe/public/js/form_builder/components/FieldProperties.vue:66
 msgid "Enter the fieldname of the currency field or a cached value (e.g. Company:company:default_currency)."
@@ -12589,8 +12589,8 @@ msgid "Error Summary"
 msgstr ""
 
 #: frappe/public/js/frappe/form/print_utils.js:187
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "連線至 QZ Tray 應用程式時發生錯誤……<br><br> 若要使用原始列印功能，您必須已安裝並執行 QZ Tray 應用程式。<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">點此下載並安裝 QZ Tray</a>。<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">點此進一步了解原始列印</a>。"
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "連線至 QZ Tray 應用程式時發生錯誤……<br><br> 若要使用原始列印功能，您必須已安裝並執行 QZ Tray 應用程式。<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">點此下載並安裝 QZ Tray</a>。<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">點此進一步了解原始列印</a>。"
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 #, python-brace-format
@@ -13368,8 +13368,8 @@ msgid "Failed to render template: {0}"
 msgstr "轉譯範本失敗：{0}"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:150
-msgid "Failed to request login to Frappe Cloud"
-msgstr "請求登入 Frappe Cloud 失敗"
+msgid "Failed to request login to thinkNXG Cloud"
+msgstr "請求登入 thinkNXG Cloud 失敗"
 
 #: frappe/email/doctype/email_account/email_account.py:241
 msgid "Failed to retrieve the list of IMAP folders from the server. Please ensure the mailbox is accessible and the account has permission to list folders."
@@ -14231,8 +14231,8 @@ msgid "First set the name and save the record."
 msgstr "請先設定名稱並儲存記錄。"
 
 #: frappe/public/js/frappe/ui/naming_series.js:115
-msgid "Fiscal Year (requires ERPNext to be installed)"
-msgstr "會計年度（需安裝 ERPNext）"
+msgid "Fiscal Year (requires thinkNXG ERP to be installed)"
+msgstr "會計年度（需安裝 thinkNXG ERP）"
 
 #: frappe/printing/page/print/print.js:76
 #: frappe/public/js/workflow_builder/WorkflowBuilder.vue:304
@@ -14575,8 +14575,8 @@ msgstr "例如：{} 開啟"
 
 #. Description of the 'Client script' (Code) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json:199
-msgid "For help see <a href=\"https://frappeframework.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Client Script API and Examples</a>"
-msgstr "如需協助，請參閱<a href=\"https://frappeframework.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\" rel=\"noopener noreferrer\">用戶端指令碼 API 與範例</a>"
+msgid "For help see <a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/guides/portal-development/web-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Client Script API and Examples</a>"
+msgstr "如需協助，請參閱<a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/guides/portal-development/web-forms\" target=\"_blank\" rel=\"noopener noreferrer\">用戶端指令碼 API 與範例</a>"
 
 #: frappe/core/doctype/system_settings/system_settings.js:130
 #, python-brace-format
@@ -14783,8 +14783,8 @@ msgstr "框架"
 #. Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json:57
 #: frappe/www/login.py:53 frappe/www/login.py:149
-msgid "Frappe"
-msgstr "Frappe"
+msgid "thinkNXG"
+msgstr "thinkNXG"
 
 #: frappe/public/js/frappe/ui/toolbar/about.js:39
 msgid "Frappe Framework Version"
@@ -14811,12 +14811,12 @@ msgid "Frappe Support"
 msgstr "Frappe 支援"
 
 #: frappe/public/js/frappe/legacy_gravatar_cleanup.js:18
-msgid "Frappe no longer uses Gravatar because it can disclose hashed email addresses to a third-party service. To fully stop this behavior, existing Gravatar image URLs must be deleted."
-msgstr "Frappe 不再使用 Gravatar，因為它可能將雜湊過的電子郵件地址洩漏給第三方服務。若要完全停止此行為，必須刪除既有的 Gravatar 圖片網址。"
+msgid "thinkNXG no longer uses Gravatar because it can disclose hashed email addresses to a third-party service. To fully stop this behavior, existing Gravatar image URLs must be deleted."
+msgstr "thinkNXG 不再使用 Gravatar，因為它可能將雜湊過的電子郵件地址洩漏給第三方服務。若要完全停止此行為，必須刪除既有的 Gravatar 圖片網址。"
 
 #: frappe/website/doctype/web_page/web_page.js:97
-msgid "Frappe page builder using components"
-msgstr "使用元件的 Frappe 頁面建置器"
+msgid "thinkNXG page builder using components"
+msgstr "使用元件的 thinkNXG 頁面建置器"
 
 #: frappe/public/js/frappe/file_uploader/ImageCropper.vue:112
 msgctxt "Image Cropper"
@@ -15654,8 +15654,8 @@ msgstr "不允許訪客為 {0} doctype 上傳檔案"
 
 #. Description of the 'Policy' (Data) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:41
-msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://frappe.io/security`"
-msgstr "有關漏洞通報的準則與政策。預設為 `https://frappe.io/security`"
+msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/support`"
+msgstr "有關漏洞通報的準則與政策。預設為 `https://thinknxg.com/support`"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json:106
@@ -24442,12 +24442,12 @@ msgid "Open Documents"
 msgstr "開啟文件"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:124
-msgid "Open Frappe CRM"
-msgstr "開啟 Frappe CRM"
+msgid "Open thinkNXG CRM"
+msgstr "開啟 thinkNXG CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:161
-msgid "Open Frappe Helpdesk"
-msgstr "開啟 Frappe Helpdesk"
+msgid "Open thinkNXG Helpdesk"
+msgstr "開啟 thinkNXG Helpdesk"
 
 #: frappe/public/js/frappe/ui/keyboard.js:230
 msgid "Open Global Search"
@@ -26431,8 +26431,8 @@ msgid "Please use following links to download file backup."
 msgstr "請使用以下連結下載檔案備份。"
 
 #: frappe/utils/password.py:218
-msgid "Please visit https://frappecloud.com/docs/sites/migrate-an-existing-site#encryption-key for more information."
-msgstr "如需更多資訊，請造訪 https://frappecloud.com/docs/sites/migrate-an-existing-site#encryption-key。"
+msgid "Please visit https://docs.thinknxg.com/thinknxgcloud/sites/migrate-an-existing-site#encryption-key for more information."
+msgstr "如需更多資訊，請造訪 https://docs.thinknxg.com/thinknxgcloud/sites/migrate-an-existing-site#encryption-key。"
 
 #: frappe/desk/doctype/workspace/workspace.js:25
 #, python-brace-format
@@ -34202,7 +34202,7 @@ msgstr "輔幣。例如「分」"
 #. Description of the 'Subdomain' (Small Text) field in DocType 'Website
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json:238
-msgid "Sub-domain provided by erpnext.com"
+msgid "Sub-domain provided by thinkNXG Cloud"
 msgstr "由 erpnext.com 提供的子網域"
 
 #. Label of the subdomain (Small Text) field in DocType 'Website Settings'
@@ -34618,8 +34618,8 @@ msgid "Switch to CRM"
 msgstr "切換至 CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:135
-msgid "Switch to Frappe CRM"
-msgstr "切換至 Frappe CRM"
+msgid "Switch to thinkNXG CRM"
+msgstr "切換至 thinkNXG CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:160
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:172
@@ -38229,8 +38229,8 @@ msgid "Update Value"
 msgstr "更新值"
 
 #: frappe/utils/change_log.py:406
-msgid "Update from Frappe Cloud"
-msgstr "從 Frappe Cloud 更新"
+msgid "Update from thinkNXG Cloud"
+msgstr "從 thinkNXG Cloud 更新"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:414
 #, python-brace-format
@@ -39965,8 +39965,8 @@ msgstr "網站造訪"
 
 #. Description of the 'Contact' (Table) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:27
-msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://security.frappe.io`"
-msgstr "可通報漏洞的網站、電子郵件或電話。預設為 `https://security.frappe.io`"
+msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/support`"
+msgstr "可通報漏洞的網站、電子郵件或電話。預設為 `https://thinknxg.com/support`"
 
 #. Option for the 'SocketIO Transport Mode' (Select) field in DocType 'System
 #. Health Report'
@@ -42000,7 +42000,7 @@ msgid "frappectl"
 msgstr ""
 
 #: frappe/core/doctype/system_settings/system_settings.js:119
-msgid "frappectl is a command-line client for Frappe sites, built for people and AI agents."
+msgid "frappectl is a command-line client for thinkNXG sites, built for people and AI agents."
 msgstr ""
 
 #. Option for the 'Indicator Color' (Select) field in DocType 'Custom

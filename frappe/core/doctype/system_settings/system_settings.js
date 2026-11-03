@@ -117,7 +117,7 @@ frappe.ui.form.on("System Settings", {
 
 		frm.get_field("frappectl_help").html(`
 			<p>${__(
-				"frappectl is a command-line client for Frappe sites, built for people and AI agents."
+				"frappectl is a command-line client for thinkNXG sites, built for people and AI agents."
 			)}</p>
 			<p>${__("Install it:")}</p>
 			<pre><code>uv tool install frappectl</code></pre>

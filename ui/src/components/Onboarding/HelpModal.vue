@@ -63,8 +63,8 @@ import type { HelpArticle, HelpModalProps } from "./types";
 
 const props = withDefaults(defineProps<HelpModalProps>(), {
 	appName: "frappecrm",
-	title: "Frappe CRM",
-	docsLink: "https://docs.frappe.io/crm",
+	title: "thinkNXG CRM",
+	docsLink: "https://docs.thinknxg.com/thinknxgcrm",
 });
 
 const { syncStatus, resetAll, isOnboardingStepsCompleted } = useOnboarding(props.appName)!;

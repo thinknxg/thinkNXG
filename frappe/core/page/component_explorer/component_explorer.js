@@ -62,7 +62,7 @@ frappe.pages["component-explorer"].on_page_load = function (wrapper) {
 										},
 										{
 											label: "Documentation",
-											href: "https://docs.frappe.io/framework",
+											href: "https://docs.thinknxg.com/thinknxgframework",
 											target: "_blank",
 											icon_right: "external-link",
 										},
@@ -226,7 +226,7 @@ frappe.pages["component-explorer"].on_page_load = function (wrapper) {
 								{
 									label: "Documentation",
 									icon: "book-open",
-									href: "https://docs.frappe.io",
+									href: "https://docs.thinknxg.com/thinknxgframework",
 								},
 							],
 						},
@@ -973,7 +973,7 @@ frappe.pages["component-explorer"].on_page_load = function (wrapper) {
 					title: __("Multiple actions (create button + docs link)"),
 					items: [
 						{
-							__code: 'frappe.ui.empty_state({\n  icon: "package",\n  title: "No items yet",\n  description: "Add an item, or read how stock works.",\n  actions: [\n    { label: "New Item", variant: "solid", icon: "plus", onclick: () => new_item() },\n    { label: "Documentation", href: "https://docs.erpnext.com/", icon: "external-link" },\n  ],\n})',
+							__code: 'frappe.ui.empty_state({\n  icon: "package",\n  title: "No items yet",\n  description: "Add an item, or read how stock works.",\n  actions: [\n    { label: "New Item", variant: "solid", icon: "plus", onclick: () => new_item() },\n    { label: "Documentation", href: "https://docs.thinknxg.com/thinknxgerp/", icon: "external-link" },\n  ],\n})',
 							icon: "package",
 							title: "No items yet",
 							description: "Add an item, or read how stock works.",
@@ -986,7 +986,7 @@ frappe.pages["component-explorer"].on_page_load = function (wrapper) {
 								},
 								{
 									label: "Documentation",
-									href: "https://docs.frappe.io/",
+									href: "https://docs.thinknxg.com/thinknxgframework",
 									icon: "external-link",
 								},
 							],

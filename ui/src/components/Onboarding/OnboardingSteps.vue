@@ -80,7 +80,7 @@ import type { OnboardingStep, OnboardingStepsProps } from "./types";
 
 const props = withDefaults(defineProps<OnboardingStepsProps>(), {
 	appName: "frappecrm",
-	title: "Frappe CRM",
+	title: "thinkNXG CRM",
 });
 
 function isDependent(step: OnboardingStep) {

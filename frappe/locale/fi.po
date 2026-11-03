@@ -10909,8 +10909,8 @@ msgstr "Anna kansion nimi"
 #. Settings'
 #: core/doctype/sms_settings/sms_settings.json
 msgctxt "SMS Settings"
-msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr "syötä staattiset url parametrit tähän (esim, lähettäjä = ERPNext, käyttäjätunnus = ERPNext, salasana = 1234 jne)"
+msgid "Enter static url parameters here (Eg. sender=thinkNXG, username=thinkNXG, password=1234 etc.)"
+msgstr "syötä staattiset url parametrit tähän (esim, lähettäjä = thinkNXG, käyttäjätunnus = thinkNXG, salasana = 1234 jne)"
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
 #. Settings'
@@ -11023,8 +11023,8 @@ msgid "Error Message"
 msgstr "Virheviesti"
 
 #: public/js/frappe/form/print_utils.js:126
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Virhe yhteyden muodostamisessa QZ-lokerosovellukseen ... <br><br> Raaka tulostustoiminnon käyttäminen edellyttää, että QZ Tray -sovellus on asennettu ja käynnissä. <br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Lataa ja asenna QZ-lokero napsauttamalla tätä</a> . <br> <a href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\" target=\"_blank\">Napsauta tätä saadaksesi lisätietoja Raw-tulostamisesta</a> ."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "Virhe yhteyden muodostamisessa QZ-lokerosovellukseen ... <br><br> Raaka tulostustoiminnon käyttäminen edellyttää, että QZ Tray -sovellus on asennettu ja käynnissä. <br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Lataa ja asenna QZ-lokero napsauttamalla tätä</a> . <br> <a href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\" target=\"_blank\">Napsauta tätä saadaksesi lisätietoja Raw-tulostamisesta</a> ."
 
 #: email/doctype/email_domain/email_domain.py:32
 msgid "Error connecting via IMAP/POP3: {e}"
@@ -12701,15 +12701,15 @@ msgstr "Esimerkiksi: {} Avaa"
 #. Description of the 'Client Script' (Code) field in DocType 'Web Form'
 #: website/doctype/web_form/web_form.json
 msgctxt "Web Form"
-msgid "For help see <a href=\"https://frappeframework.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\">Client Script API and Examples</a>"
-msgstr "Ohjeita on <a href=\"https://frappeframework.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\">Client Script -sovellusliittymässä ja esimerkkeissä</a>"
+msgid "For help see <a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/guides/portal-development/web-forms\" target=\"_blank\">Client Script API and Examples</a>"
+msgstr "Ohjeita on <a href=\"https://docs.thinknxg.com/thinknxgframework/user/en/guides/portal-development/web-forms\" target=\"_blank\">Client Script -sovellusliittymässä ja esimerkkeissä</a>"
 
 #. Description of the 'Enable Automatic Linking in Documents' (Check) field in
 #. DocType 'Email Account'
 #: email/doctype/email_account/email_account.json
 msgctxt "Email Account"
-msgid "For more information, <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
-msgstr "Saat lisätietoja <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">napsauttamalla tätä</a> ."
+msgid "For more information, <a class=\"text-muted\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
+msgstr "Saat lisätietoja <a class=\"text-muted\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/email/linking-emails-to-document\">napsauttamalla tätä</a> ."
 
 #: integrations/doctype/google_settings/google_settings.js:7
 msgid "For more information, {0}."
@@ -12918,15 +12918,15 @@ msgid "Fraction Units"
 msgstr "jako yksiköt"
 
 #: www/login.html:61 www/login.html:142 www/login.py:44 www/login.py:134
-msgid "Frappe"
-msgstr "Frappe"
+msgid "thinkNXG"
+msgstr "thinkNXG"
 
 #. Option for the 'Social Login Provider' (Select) field in DocType 'Social
 #. Login Key'
 #: integrations/doctype/social_login_key/social_login_key.json
 msgctxt "Social Login Key"
-msgid "Frappe"
-msgstr "Frappe"
+msgid "thinkNXG"
+msgstr "thinkNXG"
 
 #: public/js/frappe/ui/toolbar/about.js:4
 msgid "Frappe Framework"
@@ -29518,7 +29518,7 @@ msgstr "alavaluutta esim \"sentti\""
 #. Settings'
 #: website/doctype/website_settings/website_settings.json
 msgctxt "Website Settings"
-msgid "Sub-domain provided by erpnext.com"
+msgid "Sub-domain provided by thinkNXG Cloud"
 msgstr "erpnext.com -sivuston alitoimialue"
 
 #. Label of a Small Text field in DocType 'Website Settings'

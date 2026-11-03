@@ -54,7 +54,7 @@ for _file in files_to_scan:
 
 if errors_encounter > 0:
 	print(
-		'\nVisit "https://frappeframework.com/docs/user/en/translations" to learn about valid translation strings.'
+		'\nVisit "https://docs.thinknxg.com/thinknxgframework/user/en/translations" to learn about valid translation strings.'
 	)
 	sys.exit(1)
 else:

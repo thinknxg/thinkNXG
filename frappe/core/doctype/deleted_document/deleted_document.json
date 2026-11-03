@@ -2,7 +2,7 @@
  "actions": [],
  "creation": "2016-12-29 12:59:48.638970",
  "doctype": "DocType",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/how-to-restore-deleted-documents-in-erpnext",
+ "documentation": "https://docs.thinknxg.com/thinknxgerp/user/manual/en/how-to-restore-deleted-documents-in-erpnext",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [

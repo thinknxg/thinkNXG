@@ -3,7 +3,7 @@
  "creation": "2022-01-06 03:18:16.326761",
  "doctype": "DocType",
  "document_type": "System",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/system-settings",
+ "documentation": "https://docs.thinknxg.com/thinknxgerp/user/manual/en/system-settings",
  "engine": "InnoDB",
  "field_order": [
   "localization",
@@ -387,7 +387,7 @@
    "label": "Expiry time of QR Code Image Page"
   },
   {
-   "default": "Frappe Framework",
+   "default": "thinkNXG Framework",
    "depends_on": "enable_two_factor_auth",
    "fieldname": "otp_issuer_name",
    "fieldtype": "Data",
@@ -468,7 +468,7 @@
    "label": "Reports"
   },
   {
-   "default": "Frappe",
+   "default": "thinkNXG",
    "description": "The application name will be used in the Login page.",
    "fieldname": "app_name",
    "fieldtype": "Data",
@@ -841,7 +841,7 @@
   },
   {
    "default": "0",
-   "documentation_url": "https://docs.frappe.io/framework/user/en/desk/reports/script-report#snapshot-reports",
+   "documentation_url": "https://docs.thinknxg.com/thinknxgframework/user/en/desk/reports/script-report#snapshot-reports",
    "fieldname": "enable_snapshot_reports",
    "fieldtype": "Check",
    "label": "Enable Snapshot Reports"

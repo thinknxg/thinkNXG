@@ -231,7 +231,7 @@ function show_email_oauth_result(code, mailbox, provider) {
 			"You signed in to a different mailbox. Sign in to this account's mailbox."
 		),
 		not_team_member: __(
-			"Only members of this site's Frappe Cloud team can connect a mailbox. Log in to Frappe Cloud in this browser, then try again."
+			"Only members of this site's thinkNXG Cloud team can connect a mailbox. Log in to thinkNXG Cloud in this browser, then try again."
 		),
 	};
 	frappe.msgprint({
