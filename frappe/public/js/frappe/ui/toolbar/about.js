@@ -6,61 +6,90 @@ frappe.ui.misc.about = function () {
 	}
 
 	const dialog = new frappe.ui.Dialog({ title: __("thinkNXG Framework") });
+	$(dialog.wrapper).addClass("about-dialog");
 
 	$(dialog.body).html(
-		`<div>
-				<p>${__("Open Source Applications for the Web")}</p>
-
-				<p>
-					<i class='fa fa-globe fa-fw'></i>
-					${__("Website")}:
-					<a href='https://thinknxg.com/' target='_blank'>https://thinknxg.com/</a>
-				</p>
-
-				<p>
-					<i class='fa fa-github fa-fw'></i>
-					${__("Source Code")}:
-					<a href='https://github.com/thinknxg' target='_blank'>https://github.com/thinknxg</a>
-				</p>
-
-				<p>
-					<i class='fa fa-file-text fa-fw'></i>
-					${__("thinkNXG Blog")}:
-					<a href='https://thinknxg.com/blog' target='_blank'>https://thinknxg.com/blog</a>
-				</p>
-
-				<p>
-					<i class='fa fa-users fa-fw'></i>
-					${__("thinkNXG Forum")}:
-					<a href='https://discuss.thinknxg.com' target='_blank'>https://discuss.thinknxg.com</a>
-				</p>
-
-
-				<hr>
-
-				<div class="d-flex align-items-center justify-content-between">
-					<h4>${__("Installed Apps")}</h4>
-					<button class="btn action-btn hidden" id="copy-apps-info"
-					title="${__("Copy Apps Version")}"
-					style="margin-bottom: var(--margin-md);">
-						${frappe.utils.icon("clipboard")}
-					</button>
+		`<div class="about-body flex flex-col gap-5 items-start">
+			<div class="about-frappe-section flex flex-col items-center gap-3 py-3 w-full">
+				<div class="about-frappe-header flex flex-col justify-center items-center gap-1.5">
+					<img src="/assets/frappe/images/thinkNXG-favicon.png" alt="thinkNXG" class="about-thinknxg-logo">
+					<p class="about-tagline text-p-sm text-ink-gray-5 m-0">${__(
+						"Open Source Applications for the Web"
+					)}</p>
 				</div>
+				<div class="about-social-btns flex gap-1">
+					<a href="https://thinknxg.com/" target="_blank" class="es-button" data-variant="ghost"
+						data-icon-button="true" title="${__("Website")}" aria-label="${__("Website")}">
+						${frappe.utils.icon("globe", "sm", "", "", "", true)}
+					</a>
+					<a href="https://github.com/thinknxg" target="_blank" class="es-button" data-variant="ghost"
+						data-icon-button="true" title="${__("Source Code")}" aria-label="${__("Source Code")}">
+						${frappe.utils.icon("github", "sm", "", "", "", true)}
+					</a>
+					<a href="https://thinknxg.com/blog" target="_blank" class="es-button" data-variant="ghost"
+						data-icon-button="true" title="${__("thinkNXG Blog")}" aria-label="${__("thinkNXG Blog")}">
+						${frappe.utils.icon("file-text", "sm", "", "", "", true)}
+					</a>
+					<a href="https://discuss.thinknxg.com" target="_blank" class="es-button" data-variant="ghost"
+						data-icon-button="true" title="${__("thinkNXG Forum")}" aria-label="${__("thinkNXG Forum")}">
+						${frappe.utils.icon("message-circle", "sm", "", "", "", true)}
+					</a>
+				</div>
+			</div>
 
-				<div id='about-app-versions'>${__("Loading versions...")}</div>
-				<p>
-					<b>
-						<a href="/attribution" target="_blank" class="text-muted">
-							${__("Dependencies & Licenses")}
+			<div class="about-info-rows flex flex-col gap-3 w-full">
+				<div class="about-info-row flex items-center justify-between">
+					<div class="about-info-content flex flex-col gap-1">
+						<div class="about-info-title inline-flex items-center gap-1 text-base-semibold text-ink-gray-8">${__(
+							"thinkNXG Framework Version"
+						)}</div>
+						<div class="about-info-sub text-p-sm text-ink-gray-5" id="about-framework-version">
+							${__("Loading...")}
+						</div>
+					</div>
+				</div>
+				<div class="about-info-row flex items-center justify-between">
+					<div class="about-info-content flex flex-col gap-1">
+						<a href="https://thinknxg.com/support" target="_blank" class="about-info-title inline-flex items-center gap-1 about-info-title-link text-base-semibold text-ink-gray-8 no-underline">
+							${__("thinkNXG Support")}
+							${frappe.utils.icon("external-link", "xs")}
 						</a>
-					</b>
-				</p>
+						<div class="about-info-sub text-p-sm text-ink-gray-5">
+							${__("Visit thinkNXG Support Portal")}
+						</div>
+					</div>
+				</div>
+				<div class="about-info-row flex items-center justify-between">
+					<div class="about-info-content flex flex-col gap-1">
+						<a href="/attribution" target="_blank" class="about-info-title inline-flex items-center gap-1 about-info-title-link text-base-semibold text-ink-gray-8 no-underline">
+							${__("Dependencies & Licenses")}
+							${frappe.utils.icon("external-link", "xs")}
+						</a>
+					</div>
+				</div>
+			</div>
 
-				<hr>
+			<div class="about-section-header flex items-center justify-between w-full">
+				<div class="about-section-label text-2xs text-ink-gray-6 text-uppercase">${__(
+					"Installed Apps"
+				)}</div>
+				<button class="es-button hidden" data-variant="ghost" data-icon-button="true"
+					id="copy-apps-info" title="${__("Copy Apps Version")}" aria-label="${__("Copy Apps Version")}">
+					${frappe.utils.icon("clipboard", "sm", "", "", "", true)}
+				</button>
+			</div>
 
-				<p class='text-muted'>${__("&copy; Kreatao Technologies and Contributors.")} </p>
-			</div>`
+			<div id="about-app-versions" class="about-app-list flex flex-col gap-3 w-full"></div>
+		</div>`
 	);
+
+	$(dialog.footer)
+		.removeClass("hide")
+		.prepend(
+			`<div class="about-footer text-p-sm text-ink-gray-4 text-center">
+			${__("&copy; Kreatao Technologies and Contributors.")}
+		</div>`
+		);
 
 	frappe.ui.misc.about_dialog = dialog;
 
@@ -99,14 +128,14 @@ frappe.ui.misc.about = function () {
 
 	const show_versions = function (versions) {
 		if (versions.frappe) {
-			$("#about-framework-version").text(`frappe: ${get_version_text(versions.frappe)}`);
+			$("#about-framework-version").text(`${__("thinkNXG Framework")}: ${get_version_text(versions.frappe)}`);
 		}
 
-		// Show update button on Frappe Cloud sites when updates are available
+		// Show update button on thinkNXG Cloud sites when updates are available
 		const $version_row = $("#about-framework-version").closest(".about-info-row");
 		$version_row.find(".about-update-indicator").remove();
 		if (frappe.boot.has_app_updates && frappe.boot.is_fc_site) {
-			$(`<a href="https://frappecloud.com/dashboard/sites/${window.location.hostname}"
+			$(`<a href="https://thinknxgcloud.com/"
 					target="_blank"
 					class="es-button no-underline about-update-indicator">
 					${__("Update Available")}

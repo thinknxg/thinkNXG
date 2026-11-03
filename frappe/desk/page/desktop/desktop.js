@@ -286,10 +286,10 @@ class DesktopPage {
 				order: 30,
 			},
 			{
-				icon: "support",
+				icon: "life-buoy",
 				label: "thinkNXG Support",
-				onClick: function () {
-					window.open("https://support.thinknxg.net", "_blank");
+				onclick: function () {
+					window.open("https://thinknxg.com/support", "_blank");
 				},
 				order: 40,
 			},

@@ -420,7 +420,7 @@ frappe.ui.form.PrintView = class {
 				`);
 			} else {
 				this.page.add_inner_message(`
-				<a style="line-height: 2.4" href="https://thinknxg.cloud/marketplace/apps/print_designer?utm_source=framework-desk&utm_medium=print-view&utm_campaign=try-link">
+				<a style="line-height: 2.4" href="https://thinknxgcloud.com/">
 					${__("Try the new Print Designer")}
 				</a>
 				`);
