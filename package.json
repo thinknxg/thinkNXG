@@ -13,7 +13,7 @@
   "author": "Frappe Technologies Pvt. Ltd.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frappe/frappe/issues"
+    "url": "https://github.com/thinknxg/thinknxg/issues"
   },
   "engines": {
     "node": ">=24"

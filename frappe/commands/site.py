@@ -101,7 +101,7 @@ def new_site(
 			bold=True,
 		)
 		click.secho(
-			"Please report issues with a full traceback here:\nhttps://github.com/frappe/frappe/issues\n",
+			"Please report issues with a full traceback here:\nhttps://github.com/thinknxg/thinknxg/issues\n",
 			fg="cyan",
 		)
 

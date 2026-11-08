@@ -112,7 +112,7 @@ dependencies = [
 Homepage = "https://thinknxg.com"
 Repository = "https://github.com/thinknxg/thinknxg"
 Documentation = "https://docs.thinknxg.com/thinknxgframework"
-"Bug Reports" = "https://github.com/frappe/frappe/issues"
+"Bug Reports" = "https://github.com/thinknxg/thinknxg/issues"
 
 [project.optional-dependencies]
 dev = [

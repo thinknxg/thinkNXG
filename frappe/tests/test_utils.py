@@ -50,6 +50,7 @@ from frappe.utils import (
 )
 from frappe.utils.change_log import (
 	get_source_url,
+	get_update_links,
 	parse_github_url,
 	parse_latest_non_beta_release,
 )
@@ -1927,6 +1928,27 @@ class TestChangeLog(IntegrationTestCase):
 		self.assertIsNone(repo)
 
 		self.assertRaises(ValueError, parse_github_url, remote_url=None)
+
+	def test_parse_github_url_thinknxg_fork(self):
+		owner, repo = parse_github_url("https://github.com/thinknxg/thinkNXG-ERP")
+		self.assertEqual((owner, repo), ("thinknxg", "thinkNXG-ERP"))
+
+	def test_update_links_use_repo_name(self):
+		# repo name differs from the app name on thinkNXG forks
+		app = {
+			"org_name": "thinknxg",
+			"repo_name": "thinkNXG-ERP",
+			"app_name": "erpnext",
+			"available_version": "16.54.0",
+		}
+		release_url, advisories_url = get_update_links(app)
+		self.assertEqual(release_url, "https://github.com/thinknxg/thinkNXG-ERP/releases/tag/v16.54.0")
+		self.assertEqual(advisories_url, "https://github.com/thinknxg/thinkNXG-ERP/security/advisories")
+
+		# entries cached before repo_name existed fall back to the app name
+		del app["repo_name"]
+		release_url, _ = get_update_links(app)
+		self.assertEqual(release_url, "https://github.com/thinknxg/erpnext/releases/tag/v16.54.0")
 
 
 class TestCrypto(IntegrationTestCase):

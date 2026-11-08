@@ -217,6 +217,7 @@ def check_for_update():
 						current_version=str(instance_version),
 						available_version=str(github_version),
 						org_name=org_name,
+						repo_name=repo,
 						app_name=app,
 						title=apps[app]["title"],
 						security_issues=security_issues_count(owner, repo, instance_version, github_version),
@@ -351,6 +352,17 @@ def get_source_url(app: str) -> str | None:
 		return remote_url.rstrip("/")
 
 
+def get_update_links(app: dict) -> tuple[str, str]:
+	"""Return (release URL, security advisories URL) for an app that has an update.
+
+	The GitHub repo name can differ from the app name (e.g. the `erpnext` app lives in a
+	repo called `thinkNXG-ERP`), so prefer the repo name parsed from the app's declared
+	repository. Entries cached before `repo_name` existed fall back to the app name.
+	"""
+	repo_url = f"https://github.com/{app['org_name']}/{app.get('repo_name') or app['app_name']}"
+	return f"{repo_url}/releases/tag/v{app['available_version']}", f"{repo_url}/security/advisories"
+
+
 def add_message_to_redis(update_json):
 	# "update-message" will store the update message string
 	# "changelog-update-user-set" will be a set of users
@@ -379,6 +391,7 @@ def show_update_popup():
 			release_links = ""
 			for app in updates[update_type]:
 				app = frappe._dict(app)
+				release_url, advisories_url = get_update_links(app)
 				security_msg = ""
 				if app.security_issues:
 					security_msg = (
@@ -387,11 +400,11 @@ def show_update_popup():
 						else _("Contains {0} security fix")
 					)
 					security_msg = security_msg.format(frappe.bold(app.security_issues))
-					security_msg = f"""( <a href='https://github.com/{app.org_name}/{app.app_name}/security/advisories'
+					security_msg = f"""( <a href='{advisories_url}'
 						 target='_blank'>{security_msg}</a> )"""
 				release_links += f"""
 					<b>{app.title}</b>:
-						<a href='https://github.com/{app.org_name}/{app.app_name}/releases/tag/v{app.available_version}'
+						<a href='{release_url}'
 							target="_blank">
 							v{app.available_version}
 						</a> {security_msg}<br>
