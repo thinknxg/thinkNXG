@@ -4,7 +4,7 @@
  "autoname": "prompt",
  "creation": "2025-07-04 15:41:50.296193",
  "doctype": "DocType",
- "documentation": "https://docs.thinknxg.com/thinknxgerp/user/manual/en/workflow-transition-tasks",
+ "documentation": "https://docs.thinknxg.com/thinknxgerp/workflow-transition-tasks",
  "engine": "InnoDB",
  "field_order": [
   "tasks"

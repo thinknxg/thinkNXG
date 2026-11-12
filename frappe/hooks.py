@@ -534,7 +534,7 @@ standard_help_items = [
 	{
 		"item_label": "thinkNXG Support",
 		"item_type": "Route",
-		"route": "https://thinknxg.com/support",
+		"route": "https://thinknxg.com/thinkdesk",
 		"is_standard": 1,
 	},
 ]

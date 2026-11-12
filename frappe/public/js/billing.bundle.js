@@ -1,4 +1,4 @@
-let frappeCloudBaseEndpoint = "https://frappecloud.com";
+let frappeCloudBaseEndpoint = "https://thinknxgcloud.com";
 let isFCUser = true;
 
 $(document).ready(function () {

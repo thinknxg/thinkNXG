@@ -12687,8 +12687,8 @@ msgid "Error Summary"
 msgstr "Sažetak Greške"
 
 #: frappe/public/js/frappe/form/print_utils.js:187
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Greška pri povezivanju sa QZ Tray aplikacijom...<br><br> Morate imati instaliranu i pokrenutu aplikaciju QZ Tray da biste koristili funkciju Direktni Ispis.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Kliknite ovdje da preuzmete i instalirate QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Kliknite ovdje da saznate više o direknom ispisivanju</a>."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "Greška pri povezivanju sa QZ Tray aplikacijom...<br><br> Morate imati instaliranu i pokrenutu aplikaciju QZ Tray da biste koristili funkciju Direktni Ispis.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Kliknite ovdje da preuzmete i instalirate QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\">Kliknite ovdje da saznate više o direknom ispisivanju</a>."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 #, python-brace-format
@@ -15761,8 +15761,8 @@ msgstr "Gostima nije dozvoljeno da otpremaju datoteke za {0} Doctype"
 
 #. Description of the 'Policy' (Data) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:41
-msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/support`"
-msgstr "Smjernice i principi o izvještavanju o ranjivostima. Po standardnom `https://thinknxg.com/support`"
+msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "Smjernice i principi o izvještavanju o ranjivostima. Po standardnom `https://thinknxg.com/thinkdesk`"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json:106
@@ -24604,7 +24604,7 @@ msgid "Open thinkNXG CRM"
 msgstr "Otvori Prodajnu Podršku"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:161
-msgid "Open thinkNXG Helpdesk"
+msgid "Open thinkDesk"
 msgstr "Otvori Podršku"
 
 #: frappe/public/js/frappe/ui/keyboard.js:230
@@ -34869,7 +34869,7 @@ msgstr "Prebacite se na Podršku Prodaje"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:160
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:172
-msgid "Switch to Helpdesk"
+msgid "Switch to thinkDesk"
 msgstr "Prebacite se na Korisničku Podršku"
 
 #: frappe/public/js/print_format_builder/stores/index.js:419
@@ -40245,8 +40245,8 @@ msgstr "Posjete Web Stranice"
 
 #. Description of the 'Contact' (Table) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:27
-msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/support`"
-msgstr "Web stranica, e-pošta ili telefon na kojima se mogu prijaviti ranjivosti. Po standardnom `https://thinknxg.com/support`"
+msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "Web stranica, e-pošta ili telefon na kojima se mogu prijaviti ranjivosti. Po standardnom `https://thinknxg.com/thinkdesk`"
 
 #. Option for the 'SocketIO Transport Mode' (Select) field in DocType 'System
 #. Health Report'

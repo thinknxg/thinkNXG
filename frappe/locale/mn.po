@@ -12689,8 +12689,8 @@ msgid "Error Summary"
 msgstr ""
 
 #: frappe/public/js/frappe/form/print_utils.js:187
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "QZ Tray програмд холбогдоход алдаа гарлаа...<br><br> Та Raw Print функцийг ашиглахын тулд QZ Tray програмыг суулгаж, ажиллуулж байх шаардлагатай.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">QZ Tray-г татаж аваад суулгахын тулд энд дарна уу</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Raw Printing-ийн талаар дэлгэрэнгүй мэдээлэл авахыг хүсвэл энд дарна уу</a>."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "QZ Tray програмд холбогдоход алдаа гарлаа...<br><br> Та Raw Print функцийг ашиглахын тулд QZ Tray програмыг суулгаж, ажиллуулж байх шаардлагатай.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">QZ Tray-г татаж аваад суулгахын тулд энд дарна уу</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\">Raw Printing-ийн талаар дэлгэрэнгүй мэдээлэл авахыг хүсвэл энд дарна уу</a>."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 #, python-brace-format
@@ -15763,8 +15763,8 @@ msgstr "Зочид {0} Doctype-д файл байршуулахыг зөвшөө
 
 #. Description of the 'Policy' (Data) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:41
-msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/support`"
-msgstr "Эмзэг байдлын талаарх мэдээлэл өгөх удирдамж, бодлого. Анхдагчаар `https://thinknxg.com/support` хаягаар тохируулна уу"
+msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "Эмзэг байдлын талаарх мэдээлэл өгөх удирдамж, бодлого. Анхдагчаар `https://thinknxg.com/thinkdesk` хаягаар тохируулна уу"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json:106
@@ -24606,7 +24606,7 @@ msgid "Open thinkNXG CRM"
 msgstr "Нээлттэй thinkNXG CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:161
-msgid "Open thinkNXG Helpdesk"
+msgid "Open thinkDesk"
 msgstr "Фраппегийн тусламжийн ширээг нээх"
 
 #: frappe/public/js/frappe/ui/keyboard.js:230
@@ -34871,7 +34871,7 @@ msgstr "thinkNXG CRM руу шилжих"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:160
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:172
-msgid "Switch to Helpdesk"
+msgid "Switch to thinkDesk"
 msgstr "Тусламжийн ширээ рүү шилжих"
 
 #: frappe/public/js/print_format_builder/stores/index.js:419
@@ -40247,8 +40247,8 @@ msgstr "Вэбсайтын айлчлалууд"
 
 #. Description of the 'Contact' (Table) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:27
-msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/support`"
-msgstr "Эмзэг байдлын талаар мэдээлэх боломжтой вэбсайт, имэйл эсвэл утас. Анхдагчаар `https://thinknxg.com/support` хаягаар орно."
+msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "Эмзэг байдлын талаар мэдээлэх боломжтой вэбсайт, имэйл эсвэл утас. Анхдагчаар `https://thinknxg.com/thinkdesk` хаягаар орно."
 
 #. Option for the 'SocketIO Transport Mode' (Select) field in DocType 'System
 #. Health Report'

@@ -5,7 +5,7 @@
  "creation": "2014-06-05 02:22:36.029850",
  "doctype": "DocType",
  "document_type": "Setup",
- "documentation": "https://docs.thinknxg.com/thinknxgerp/user/manual/en/address-template",
+ "documentation": "https://docs.thinknxg.com/thinknxgerp/address-template",
  "engine": "InnoDB",
  "field_order": [
   "country",

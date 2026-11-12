@@ -50,7 +50,7 @@ frappe.ui.misc.about = function () {
 				</div>
 				<div class="about-info-row flex items-center justify-between">
 					<div class="about-info-content flex flex-col gap-1">
-						<a href="https://thinknxg.com/support" target="_blank" class="about-info-title inline-flex items-center gap-1 about-info-title-link text-base-semibold text-ink-gray-8 no-underline">
+						<a href="https://thinknxg.com/thinkdesk" target="_blank" class="about-info-title inline-flex items-center gap-1 about-info-title-link text-base-semibold text-ink-gray-8 no-underline">
 							${__("thinkNXG Support")}
 							${frappe.utils.icon("external-link", "xs")}
 						</a>

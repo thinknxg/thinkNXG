@@ -12685,8 +12685,8 @@ msgid "Error Summary"
 msgstr ""
 
 #: frappe/public/js/frappe/form/print_utils.js:187
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "QZ Tray အပလီကေးရှင်းသို့ ချိတ်ဆက်ရာတွင် အမှားဖြစ်ပွားခဲ့သည်...<br><br> Raw Print အင်္ဂါရပ်ကို အသုံးပြုရန် QZ Tray အပလီကေးရှင်းကို ထည့်သွင်းပြီး လုပ်ဆောင်နေရပါမည်။<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">QZ Tray ကို ဒေါင်းလုဒ်လုပ်ပြီး ထည့်သွင်းရန် ဤနေရာကို နှိပ်ပါ</a>။<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Raw Printing အကြောင်း ပိုမိုလေ့လာရန် ဤနေရာကို နှိပ်ပါ</a>။"
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "QZ Tray အပလီကေးရှင်းသို့ ချိတ်ဆက်ရာတွင် အမှားဖြစ်ပွားခဲ့သည်...<br><br> Raw Print အင်္ဂါရပ်ကို အသုံးပြုရန် QZ Tray အပလီကေးရှင်းကို ထည့်သွင်းပြီး လုပ်ဆောင်နေရပါမည်။<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">QZ Tray ကို ဒေါင်းလုဒ်လုပ်ပြီး ထည့်သွင်းရန် ဤနေရာကို နှိပ်ပါ</a>။<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\">Raw Printing အကြောင်း ပိုမိုလေ့လာရန် ဤနေရာကို နှိပ်ပါ</a>။"
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 #, python-brace-format
@@ -15759,8 +15759,8 @@ msgstr ""
 
 #. Description of the 'Policy' (Data) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:41
-msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/support`"
-msgstr "အားနည်းချက်များ တင်ပြခြင်းဆိုင်ရာ လမ်းညွှန်ချက်များနှင့် မူဝါဒများ။ မူရင်းသတ်မှတ်ချက်မှာ `https://thinknxg.com/support`"
+msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "အားနည်းချက်များ တင်ပြခြင်းဆိုင်ရာ လမ်းညွှန်ချက်များနှင့် မူဝါဒများ။ မူရင်းသတ်မှတ်ချက်မှာ `https://thinknxg.com/thinkdesk`"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json:106
@@ -24602,8 +24602,8 @@ msgid "Open thinkNXG CRM"
 msgstr "thinkNXG CRM ကိုဖွင့်ပါ"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:161
-msgid "Open thinkNXG Helpdesk"
-msgstr "thinkNXG Helpdesk ကိုဖွင့်ပါ"
+msgid "Open thinkDesk"
+msgstr "thinkDesk ကိုဖွင့်ပါ"
 
 #: frappe/public/js/frappe/ui/keyboard.js:230
 msgid "Open Global Search"
@@ -34867,8 +34867,8 @@ msgstr "thinkNXG CRM သို့ ပြောင်းရန်"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:160
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:172
-msgid "Switch to Helpdesk"
-msgstr "Helpdesk သို့ ပြောင်းရန်"
+msgid "Switch to thinkDesk"
+msgstr "thinkDesk သို့ ပြောင်းရန်"
 
 #: frappe/public/js/print_format_builder/stores/index.js:419
 #, python-brace-format
@@ -40243,8 +40243,8 @@ msgstr "ဝဘ်ဆိုက် လည်ပတ်မှုများ"
 
 #. Description of the 'Contact' (Table) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:27
-msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/support`"
-msgstr "အားနည်းချက်များကို အစီရင်ခံနိုင်သော ဝဘ်ဆိုက်၊ အီးမေးလ် သို့မဟုတ် ဖုန်း။ မူရင်းတန်ဖိုးမှာ `https://thinknxg.com/support`"
+msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "အားနည်းချက်များကို အစီရင်ခံနိုင်သော ဝဘ်ဆိုက်၊ အီးမေးလ် သို့မဟုတ် ဖုန်း။ မူရင်းတန်ဖိုးမှာ `https://thinknxg.com/thinkdesk`"
 
 #. Option for the 'SocketIO Transport Mode' (Select) field in DocType 'System
 #. Health Report'

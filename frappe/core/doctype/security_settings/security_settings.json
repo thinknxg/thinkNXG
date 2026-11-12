@@ -24,7 +24,7 @@
    "label": "Expires"
   },
   {
-   "description": "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/support`",
+   "description": "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/thinkdesk`",
    "fieldname": "public_contacts",
    "fieldtype": "Table",
    "label": "Contact",
@@ -38,7 +38,7 @@
    "options": "Security Settings Language"
   },
   {
-   "description": "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/support`",
+   "description": "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/thinkdesk`",
    "fieldname": "public_policy",
    "fieldtype": "Data",
    "label": "Policy",

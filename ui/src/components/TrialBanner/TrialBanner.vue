@@ -39,7 +39,7 @@ const props = withDefaults(defineProps<TrialBannerProps>(), {
 
 const trialEndDays = ref(0);
 const showBanner = ref(false);
-const baseEndpoint = ref("https://frappecloud.com");
+const baseEndpoint = ref("https://thinknxgcloud.com");
 const siteName = ref("");
 
 const trialTitle = computed(() => {

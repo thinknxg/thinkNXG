@@ -10,7 +10,7 @@ export interface TrialBannerProps {
 export interface SiteInfo {
   /** ISO date the trial ends on. */
   trial_end_date?: string;
-  /** Frappe Cloud dashboard origin, e.g. `https://frappecloud.com`. */
+  /** Frappe Cloud dashboard origin, e.g. `https://thinknxgcloud.com`. */
   base_url: string;
   /** Site the dashboard link points at. */
   site_name: string;

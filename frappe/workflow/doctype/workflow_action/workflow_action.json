@@ -2,7 +2,7 @@
  "actions": [],
  "creation": "2024-02-12 12:38:32.408271",
  "doctype": "DocType",
- "documentation": "https://docs.thinknxg.com/thinknxgerp/user/manual/en/workflow-actions",
+ "documentation": "https://docs.thinknxg.com/thinknxgerp/workflow-actions",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [

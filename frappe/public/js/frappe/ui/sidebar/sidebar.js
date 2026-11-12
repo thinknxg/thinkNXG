@@ -157,8 +157,8 @@ frappe.ui.Sidebar = class Sidebar {
 			(app) => app.name === "helpdesk"
 		);
 		if (installed_app && installed_app.route) {
-			const title = __("Switch to Helpdesk");
-			const message = __("Open thinkNXG Helpdesk");
+			const title = __("Switch to thinkDesk");
+			const message = __("Open thinkDesk");
 			this.promotional_banners.push({
 				title,
 				message,
@@ -169,12 +169,12 @@ frappe.ui.Sidebar = class Sidebar {
 			return;
 		}
 
-		const title = __("Switch to Helpdesk");
+		const title = __("Switch to thinkDesk");
 		const message = __(
 			"Support without complexity, lock-in and per-user costs. Try it for free!"
 		);
 		const link =
-			"https://thinknxgcloud.com/";
+			"https://thinknxg.com/thinkdesk";
 
 		this.promotional_banners.push({ title, message, link, icon });
 	}

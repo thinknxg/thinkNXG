@@ -289,7 +289,7 @@ class DesktopPage {
 				icon: "life-buoy",
 				label: "thinkNXG Support",
 				onclick: function () {
-					window.open("https://thinknxg.com/support", "_blank");
+					window.open("https://thinknxg.com/thinkdesk", "_blank");
 				},
 				order: 40,
 			},

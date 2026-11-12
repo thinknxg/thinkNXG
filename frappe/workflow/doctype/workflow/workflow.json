@@ -7,7 +7,7 @@
  "description": "Defines workflow states and rules for a document.",
  "doctype": "DocType",
  "document_type": "Document",
- "documentation": "https://docs.thinknxg.com/thinknxgerp/user/manual/en/workflow",
+ "documentation": "https://docs.thinknxg.com/thinknxgerp/workflow",
  "engine": "InnoDB",
  "field_order": [
   "workflow_name",

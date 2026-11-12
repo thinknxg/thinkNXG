@@ -12685,8 +12685,8 @@ msgid "Error Summary"
 msgstr ""
 
 #: frappe/public/js/frappe/form/print_utils.js:187
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Chyba při připojení k aplikaci QZ Tray...<br><br> Pro použití funkce přímého tisku musíte mít nainstalovanou a spuštěnou aplikaci QZ Tray.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Klikněte zde pro stažení a instalaci QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Klikněte zde pro více informací o přímém tisku</a>."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "Chyba při připojení k aplikaci QZ Tray...<br><br> Pro použití funkce přímého tisku musíte mít nainstalovanou a spuštěnou aplikaci QZ Tray.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Klikněte zde pro stažení a instalaci QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\">Klikněte zde pro více informací o přímém tisku</a>."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 #, python-brace-format
@@ -15759,8 +15759,8 @@ msgstr ""
 
 #. Description of the 'Policy' (Data) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:41
-msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/support`"
-msgstr "Pokyny a zásady pro hlášení zranitelností. Výchozí hodnota je `https://thinknxg.com/support`"
+msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "Pokyny a zásady pro hlášení zranitelností. Výchozí hodnota je `https://thinknxg.com/thinkdesk`"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json:106
@@ -24602,8 +24602,8 @@ msgid "Open thinkNXG CRM"
 msgstr "Otevřít thinkNXG CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:161
-msgid "Open thinkNXG Helpdesk"
-msgstr "Otevřít thinkNXG Helpdesk"
+msgid "Open thinkDesk"
+msgstr "Otevřít thinkDesk"
 
 #: frappe/public/js/frappe/ui/keyboard.js:230
 msgid "Open Global Search"
@@ -34867,8 +34867,8 @@ msgstr "Přepnout na thinkNXG CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:160
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:172
-msgid "Switch to Helpdesk"
-msgstr "Přepnout na Helpdesk"
+msgid "Switch to thinkDesk"
+msgstr "Přepnout na thinkDesk"
 
 #: frappe/public/js/print_format_builder/stores/index.js:419
 #, python-brace-format
@@ -40243,8 +40243,8 @@ msgstr "Návštěvy webových stránek"
 
 #. Description of the 'Contact' (Table) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:27
-msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/support`"
-msgstr "Webové stránky, e-mail nebo telefon, kam lze hlásit zranitelnosti. Výchozí hodnota je `https://thinknxg.com/support`"
+msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "Webové stránky, e-mail nebo telefon, kam lze hlásit zranitelnosti. Výchozí hodnota je `https://thinknxg.com/thinkdesk`"
 
 #. Option for the 'SocketIO Transport Mode' (Select) field in DocType 'System
 #. Health Report'

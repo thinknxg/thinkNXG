@@ -12678,8 +12678,8 @@ msgid "Error Summary"
 msgstr "Resumen de errores"
 
 #: frappe/public/js/frappe/form/print_utils.js:187
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Error al conectarse a la aplicación QZ Tray...<br><br> Debe tener la aplicación QZ Tray instalada y en ejecución, para usar la función de Impresión sin formato.<br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Haga clic aquí para descargar e instalar la bandeja QZ</a>. <br> <a href=\"https://docs.thinknxg.com/thinknxgerp/user/manual/en/setting-up/print/raw-printing\" target=\"_blank\">Haga clic aquí para obtener más información sobre la impresión sin procesar</a>."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "Error al conectarse a la aplicación QZ Tray...<br><br> Debe tener la aplicación QZ Tray instalada y en ejecución, para usar la función de Impresión sin formato.<br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Haga clic aquí para descargar e instalar la bandeja QZ</a>. <br> <a href=\"https://docs.thinknxg.com/thinknxgerp/setting-up/print/raw-printing\" target=\"_blank\">Haga clic aquí para obtener más información sobre la impresión sin procesar</a>."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 #, python-brace-format
@@ -15752,8 +15752,8 @@ msgstr "Los invitados no pueden subir archivos del DocType {0}"
 
 #. Description of the 'Policy' (Data) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:41
-msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/support`"
-msgstr "Directrices y políticas sobre la notificación de vulnerabilidades. Valor predeterminado: `https://thinknxg.com/support`"
+msgid "Guidelines and policies on vulnerability reporting. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "Directrices y políticas sobre la notificación de vulnerabilidades. Valor predeterminado: `https://thinknxg.com/thinkdesk`"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json:106
@@ -24595,8 +24595,8 @@ msgid "Open thinkNXG CRM"
 msgstr "Abrir thinkNXG CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:161
-msgid "Open thinkNXG Helpdesk"
-msgstr "Abrir thinkNXG Helpdesk"
+msgid "Open thinkDesk"
+msgstr "Abrir thinkDesk"
 
 #: frappe/public/js/frappe/ui/keyboard.js:230
 msgid "Open Global Search"
@@ -34860,8 +34860,8 @@ msgstr "Cambiar a thinkNXG CRM"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:160
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:172
-msgid "Switch to Helpdesk"
-msgstr "Cambiar a Helpdesk"
+msgid "Switch to thinkDesk"
+msgstr "Cambiar a thinkDesk"
 
 #: frappe/public/js/print_format_builder/stores/index.js:419
 #, python-brace-format
@@ -40236,8 +40236,8 @@ msgstr "Visitas del sitio web"
 
 #. Description of the 'Contact' (Table) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json:27
-msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/support`"
-msgstr "Sitio web, correo electrónico o teléfono donde se pueden reportar vulnerabilidades. Por defecto es `https://thinknxg.com/support`"
+msgid "Website, email or phone where vulnerabilities can be reported. Defaults to `https://thinknxg.com/thinkdesk`"
+msgstr "Sitio web, correo electrónico o teléfono donde se pueden reportar vulnerabilidades. Por defecto es `https://thinknxg.com/thinkdesk`"
 
 #. Option for the 'SocketIO Transport Mode' (Select) field in DocType 'System
 #. Health Report'
